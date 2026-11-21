@@ -1,0 +1,80 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,modality,khac gia tri,rgb,ir,peer,4.3,Sua modality=ir (D## la anh NIR that)
+D01.png,object,box,chi co o mine (hoac IoU thap),IoU=0.00,,both_wrong,4.2,DMS khong ve object -> xoa box object
+D02.png,frame_meta,modality,khac gia tri,rgb,ir,peer,4.3,Sua modality=ir (D## la anh NIR that)
+D02.png,person,seatbelt,khac gia tri (IoU=0.99),unknown,worn_incorrect,ambiguous,4.7,Hoi coach: day qua vai hay khong - neu khong ro thi giu seatbelt=unknown
+D02.png,face,eye_right,khac gia tri (IoU=0.88),unknown,open,peer,4.5,4 diem eye_right khong bi che -> doi eye_right=open
+D03.png,frame_meta,modality,khac gia tri,rgb,ir,peer,4.3,Sua modality=ir (D## la anh NIR that)
+D03.png,object,box,chi co o mine (hoac IoU thap),IoU=0.00,,both_wrong,4.2,DMS khong ve object -> xoa box object
+D03.png,face,gaze_zone,khac gia tri (IoU=0.81),road,other,ambiguous,4.5,Hoi coach: huong mat va mat dau - road hay other
+D03.png,face13,lip_lower.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D03.png,face13,lip_upper.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D03.png,face13,mouth_left.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D03.png,face13,mouth_right.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D04.png,frame_meta,modality,khac gia tri,rgb,ir,peer,4.3,Sua modality=ir (D## la anh NIR that)
+D04.png,face,eye_left,khac gia tri (IoU=0.78),closed,unknown,ambiguous,4.5,Hoi coach: mat co mo (open) hay khong phan biet duoc (unknown)
+D04.png,face13,left_eye_inner.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,left_eye_lower.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,left_eye_outer.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,left_eye_upper.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,right_eye_inner.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,right_eye_lower.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,right_eye_outer.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D04.png,face13,right_eye_upper.occluded,khac co,0,1,ambiguous,4.6,Hoi coach: vung mat co bi che khong -> bat co occluded
+D05.png,frame_meta,modality,khac gia tri,rgb,ir,peer,4.3,Sua modality=ir (D## la anh NIR that)
+D05.png,phone,box,chi co o mine (hoac IoU thap),IoU=0.00,,mine,4.7,Giu box phone (state=held) neu van thay canh hoac goc man hinh
+D06.png,frame_meta,modality,khac gia tri,rgb,ir,peer,4.3,Sua modality=ir (D## la anh NIR that)
+D06.png,face,eye_left,khac gia tri (IoU=0.90),open,unknown,ambiguous,4.5,Hoi coach: mat co mo (open) hay khong phan biet duoc (unknown)
+D06.png,face,gaze_zone,khac gia tri (IoU=0.90),mirror_l,other,ambiguous,4.5,Hoi coach: huong mat va mat dau - road hay other
+D06.png,face13,left_eye_inner.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D06.png,face13,left_eye_lower.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D06.png,face13,left_eye_outer.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+D06.png,face13,left_eye_upper.outside,khac co,0,1,ambiguous,4.6,Hoi coach: 4 diem mat co nam ngoai khung khong
+S01_ir.png,child_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (trai anh la phai xe)
+S01_ir.png,object,seat,khac gia tri (IoU=0.92),driver,rear_right,both_wrong,4.4-3,Suat thanh rear_right (vat nam ben phai anh)
+S01_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S01_rgb.png,child_seat,seat,khac gia tri (IoU=0.89),rear_right,rear_left,mine,4.4-3,Giu rear_right (trai anh la phai xe)
+S01_rgb.png,object,box,chi co o mine (hoac IoU thap),IoU=0.00,,mine,4.2,Giu box object o S01_rgb (ban review thieu o RGB nhung co o IR)
+S02_ir.png,hand,box,chi co o mine (hoac IoU thap),IoU=0.00,,both_wrong,4.1,OMS khong gan hand -> xoa 2 box hand
+S02_ir.png,infant_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S02_ir.png,person,seat,khac gia tri (IoU=0.98),rear_left,rear_right,mine,4.4-3,Giu rear_left (nguoi nam ben phai anh)
+S02_ir.png,hand,box,chi co o mine (hoac IoU thap),IoU=0.00,,both_wrong,4.1,OMS khong gan hand -> xoa 2 box hand
+S02_ir.png,face,box,chi co o peer (hoac IoU thap),,,peer,4.2,Them box face cho nguoi lon o S02_ir (chi box khong dien thuoc tinh)
+S02_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S02_rgb.png,infant_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S02_rgb.png,face,box,chi co o mine (hoac IoU thap),IoU=0.00,,mine,4.2,Giu box face o S02_rgb (ban review chi co o IR)
+S02_rgb.png,person,seat,khac gia tri (IoU=0.98),rear_left,rear_right,mine,4.4-3,Giu rear_left (nguoi nam ben phai anh)
+S03_ir.png,object,seat,khac gia tri (IoU=0.97),rear_left,rear_right,mine,4.4-3,Giu rear_left: vat ben trai anh la phai xe / ben phai anh la trai xe
+S03_ir.png,object,seat,khac gia tri (IoU=0.98),rear_right,rear_left,mine,4.4-3,Giu rear_right: vat ben trai anh la phai xe / ben phai anh la trai xe
+S03_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S03_rgb.png,object,seat,khac gia tri (IoU=0.98),rear_left,rear_right,mine,4.4-3,Giu rear_left: vat ben trai anh la phai xe / ben phai anh la trai xe
+S03_rgb.png,object,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right: vat ben trai anh la phai xe / ben phai anh la trai xe
+S04_ir.png,infant_seat,seat,khac gia tri (IoU=1.00),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S04_ir.png,child_seat,seat,khac gia tri (IoU=0.92),rear_left,rear_right,mine,4.4-3,Giu rear_left (ghe tre em nam ben phai anh)
+S04_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S04_rgb.png,child_seat,seat,khac gia tri (IoU=0.92),rear_left,rear_right,mine,4.4-3,Giu rear_left (ghe tre em nam ben phai anh)
+S04_rgb.png,infant_seat,seat,khac gia tri (IoU=0.99),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S05_ir.png,infant_seat,seat,khac gia tri (IoU=0.97),driver,rear_left,both_wrong,4.4-3,Suat thanh rear_right (nhoi nam ben trai anh)
+S05_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S05_rgb.png,infant_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S06_ir.png,child_seat,seat,khac gia tri (IoU=0.99),rear_left,rear_right,mine,4.4-3,Giu rear_left (ghe tre em nam ben phai anh)
+S06_ir.png,infant_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S06_rgb.png,infant_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (nhoi nam ben trai anh)
+S06_rgb.png,child_seat,seat,khac gia tri (IoU=0.99),rear_left,rear_right,mine,4.4-3,Giu rear_left (ghe tre em nam ben phai anh)
+S07_ir.png,object,seat,khac gia tri (IoU=0.98),rear_right,rear_left,mine,4.4-3,Giu rear_right (vat ben trai anh la phai xe)
+S07_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S07_rgb.png,object,seat,khac gia tri (IoU=0.95),rear_right,rear_left,mine,4.4-3,Giu rear_right (vat ben trai anh la phai xe)
+S08_ir.png,person,seat,khac gia tri (IoU=0.99),rear_left,rear_right,mine,4.4-3,Giu rear_left (nguoi nam ben phai anh)
+S08_ir.png,face,eye_left,khac gia tri (IoU=0.68),open,unknown,ambiguous,4.5,Hoi coach: mat mo hay khong phan biet duoc
+S08_ir.png,face,eye_right,khac gia tri (IoU=0.68),open,unknown,ambiguous,4.5,Hoi coach: mat mo hay khong phan biet duoc
+S08_ir.png,face,gaze_zone,khac gia tri (IoU=0.68),mirror_l,other,ambiguous,4.5,Hoi coach: vung nhin mirror_l hay other
+S08_ir.png,face,glasses,khac gia tri (IoU=0.68),none,unknown,ambiguous,4.5,Hoi coach: co deo kinh khong
+S08_ir.png,child_seat,seat,khac gia tri (IoU=0.97),rear_right,rear_left,mine,4.4-3,Giu rear_right (ghe tre em nam ben trai anh)
+S08_ir.png,face13,count,khac so skeleton,1,0,peer,4.6,Xoa face13 o S08_ir (chi ve face13 tren anh D##)
+S08_rgb.png,frame_meta,light,khac gia tri,day,unknown,peer,3,Sua light=unknown (anh SVIRO la anh dung)
+S08_rgb.png,face,eye_left,khac gia tri (IoU=0.66),open,unknown,ambiguous,4.5,Hoi coach: mat mo hay khong phan biet duoc
+S08_rgb.png,face,eye_right,khac gia tri (IoU=0.66),open,unknown,ambiguous,4.5,Hoi coach: mat mo hay khong phan biet duoc
+S08_rgb.png,face,gaze_zone,khac gia tri (IoU=0.66),mirror_l,other,ambiguous,4.5,Hoi coach: vung nhin mirror_l hay other
+S08_rgb.png,face,glasses,khac gia tri (IoU=0.66),none,unknown,ambiguous,4.5,Hoi coach: co deo kinh khong
+S08_rgb.png,child_seat,seat,khac gia tri (IoU=0.89),rear_right,rear_left,mine,4.4-3,Giu rear_right (ghe tre em nam ben trai anh)
+S08_rgb.png,person,seat,khac gia tri (IoU=0.99),rear_left,rear_right,mine,4.4-3,Giu rear_left (nguoi nam ben phai anh)

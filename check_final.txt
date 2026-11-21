@@ -1,0 +1,19 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=9, face13=7, hand=14, infant_seat=10, object=10, person=10, phone=1
+  [WARN] D02.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D04.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [ERROR] S01_ir.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [WARN] S01_ir.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [ERROR] S01_rgb.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [WARN] S01_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S01_rgb.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S02_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S03_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S04_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S05_ir.png: infant_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S05_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S07_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [ERROR] S08_ir.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [ERROR] S08_rgb.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [WARN] S08_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+Kết quả: 4 lỗi, 12 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

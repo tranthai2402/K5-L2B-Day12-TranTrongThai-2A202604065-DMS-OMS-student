@@ -1,0 +1,23 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=10, face13=6, hand=12, infant_seat=10, object=10, person=10, phone=1
+  [WARN] D02.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D04.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] S01_rgb.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+Kết quả: 0 lỗi, 3 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giai thich 3 canh bao con lai (theo CHECKPOINTS.md, moi canh bao can 1 dong):
+
+1) D02.png - eye_right=open nhung ca 4 diem right_eye_* deu bi che.
+   Vung mat phai cua tai xe bi diem phan xa LED (an NIR that) che hoan toan nen KHONG
+   thay duoc mi mat. Theo GUIDE 4.4.1 (khong thay thi unknown) va 4.5, da sua
+   eye_right = unknown. Giu nguyen 4 co occluded cho right_eye_*.
+
+2) D04.png - eye_left=unknown nhung 4 diem left_eye_* khong co co occluded/outside nao.
+   Vung mat phai moi bi che; mat trai khong bi che. Da xem lai anh: thay duoc khe mat
+   trai nen da sua eye_left = open (va de nguyen 4 co occluded o mat phai).
+   Neu thay mi khep thi doi sang closed - da hoi coach.
+
+3) S01_rgb.png - object co seat=driver tren anh SVIRO.
+   Camera OMS nhin ve phia sau xe nen CHI thay hang ghe sau, khong the co vat o ghe tai xe.
+   Cốc nằm bên phải ảnh nên thuộc về rear_right theo GUIDE 4.4-3 (trái ảnh = phải xe).
+   Da sua seat = rear_right cho khop voi S01_ir.
